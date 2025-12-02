@@ -1,1 +1,7 @@
+This project is a fully functional implementation of the classic Tetris game using the Python programming language and the Pygame library. The program recreates the core mechanics of Tetris, including piece generation, rotation, collision detection, row clearing, scoring, and game-over logic.
 
+The grid is represented as a 10×20 matrix that tracks both falling and locked blocks. Seven tetromino shapes (S, Z, I, O, J, L, T) are defined using a 5×5 symbolic template and rotated dynamically using modular indexing. The game continuously updates in a loop that controls the falling speed of pieces, handles user input, and renders graphics to the screen.
+
+When the player completes a horizontal line, the code clears the row, awards points, and shifts all upper rows downward. The program also displays "next piece" previews, visual borders, and a scoring system. A game-over check is triggered when locked pieces reach the top of the board.
+
+This Tetris implementation demonstrates fundamental game development concepts such as event handling, object-oriented programming, 2D grid manipulation, rendering, and real-time gameplay logic.
